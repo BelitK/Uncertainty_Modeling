@@ -49,6 +49,7 @@ kTL_p = -(CTL_p*RTL + CTL*RTL_p) / (CTL*RTL)^2;
 % --- Build A ---
 A = zeros(3,3);
 
+#Linearization
 % ds/dt = -u/CBat  -> no x dependence
 A(1,:) = [0 0 0];
 
